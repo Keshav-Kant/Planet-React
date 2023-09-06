@@ -1,0 +1,371 @@
+.space-icon {
+  position: absolute;
+  top: 280px;
+  left: calc(50% - 880px);
+  width: 1700px;
+  height: 190vh;
+  animation: rotateSpace 4s forwards;
+  transform-origin: center center;
+
+  }
+  .purple-planet-icon {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform-origin: center center;
+    filter: drop-shadow(0px 0px 40px rgb(42, 116, 126));
+    
+  }
+  .rectangle{
+    position: absolute;
+    top: 600px;
+    left: 600px;
+    display: flex;
+    width: 750px;
+    height: 750px;
+    rotate: 360deg;
+    animation: rotatePlanet 3s forwards;
+    transform-origin: center center;
+
+  }
+  .andromeda-iv,
+  .galaxy {
+    position: relative;
+    font-weight: 500;
+  }
+  .galaxy {
+    letter-spacing: 0.16em;
+  }
+  .andromeda-iv {
+    font-size: 27.17px;
+    color: var(--color-gray);
+  }
+  .galaxy-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 4.75px;
+  }
+  .diameter {
+    position: relative;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  .frame-parent {
+    position: absolute;
+    top: 309.71px;
+    left: calc(50% - 591.35px);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 81.5px;
+    font-size: 21.73px;
+    color: var(--color-lightsteelblue);
+  }
+  .star-animate-icon {
+    position: absolute;
+    top: 0;
+    right: 975.94px;
+    width: 1000.49px;
+    height: 859.58px;
+  }
+  .etheron-child {
+    position: absolute;
+    top: 235.68px;
+    left: -260.58px;
+    background: linear-gradient(
+      90.64deg,
+      rgba(82, 0, 255, 0.5),
+      rgba(202, 43, 157, 0.5)
+    );
+    filter: blur(373.55px);
+    width: 577.31px;
+    height: 119.54px;
+  }
+  .smooth-light {
+    position: absolute;
+    top: 738.96px;
+    left: 1013.35px;
+    border-radius: 50%;
+    background: linear-gradient(
+      131.24deg,
+      #1c2469,
+      rgba(28, 36, 105, 0) 53.58%,
+      rgba(28, 36, 105, 0)
+    );
+    filter: blur(747.11px);
+    width: 261.49px;
+    height: 263.53px;
+    transform: rotate(180deg);
+    transform-origin: 0 0;
+  }
+  .etheron1 {
+    position: absolute;
+    top: 169.44px;
+    left: 782.67px;
+    font-size: 66.67px;
+    letter-spacing: 0.32em;
+    font-weight: 500;
+    background: linear-gradient(101.23deg, #ededed, #b6b6b6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .blue-planet-icon {
+    position: relative;
+    width: 279.83px;
+    height: 279.83px;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  .orionis {
+    position: relative;
+    letter-spacing: 0.16em;
+    font-weight: 500;
+    background: linear-gradient(
+      101.23deg,
+      rgba(237, 237, 237, 0.8),
+      rgba(182, 182, 182, 0.8)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .blue-planet-parent {
+    position: absolute;
+    top: 788.54px;
+    left: -131.08px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10.87px;
+  }
+  .component-1-child {
+    position: absolute;
+    top: 0;
+    left: 94.28px;
+    border-radius: 76.39px;
+    background: linear-gradient(
+      180.1deg,
+      rgba(18, 18, 23, 0),
+      rgba(255, 255, 255, 0)
+    );
+    width: 2px;
+    height: 133.33px;
+    transform: rotate(45deg);
+    transform-origin: 0 0;
+  }
+  .component-1 {
+    position: absolute;
+    top: 575px;
+    left: 1736.11px;
+    width: 95.69px;
+    height: 95.69px;
+  }
+  .etheron-inner,
+  .etheron-item {
+    position: absolute;
+    filter: blur(325.53px);
+    width: 665.53px;
+    height: 127.32px;
+  }
+  .etheron-item {
+    top: 305.62px;
+    left: 1660.58px;
+    background: linear-gradient(
+      90.64deg,
+      rgba(82, 0, 255, 0.5),
+      rgba(146, 27, 188, 0.5)
+    );
+  }
+  .etheron-inner {
+    top: 1247.49px;
+    left: 666.63px;
+    background: linear-gradient(
+      90.64deg,
+      rgba(82, 0, 255, 0.6),
+      rgba(146, 27, 188, 0.6)
+    );
+  }
+  .moving-star-child {
+    position: absolute;
+    top: 100px;
+    left: -5.72px;
+    border-radius: 76.39px;
+    background: linear-gradient(-0.03deg, #121217, #fff);
+    width: 2px;
+    height: 133.33px;
+    transform: rotate(45deg);
+    transform-origin: 0 0;
+  }
+  .moving-star,
+  .moving-star1 {
+    position: absolute;
+    top: 826.25px;
+    left: 1613.75px;
+    width: 95.69px;
+    height: 95.69px;
+    overflow: hidden;
+    transform: rotate(-180deg);
+    transform-origin: 0 0;
+  }
+  .moving-star1 {
+    top: 802.78px;
+    left: 531.8px;
+    transform: rotate(90deg);
+  }
+  .meteora {
+    position: absolute;
+    top: -6.24px;
+    left: calc(50% - 79.8px);
+    letter-spacing: 0.21em;
+  }
+  .home {
+    position: relative;
+    opacity: 0.75;
+  }
+  .home-parent {
+    position: absolute;
+    top: 0.55px;
+    left: 0;
+    width: 582.74px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-size: 20.02px;
+  }
+  .header {
+    position: absolute;
+    top: 59.22px;
+    left: calc(50% - 863.25px);
+    width: 1725.82px;
+    height: 28.78px;
+    text-align: left;
+    font-size: 27.17px;
+  }
+  .galaxies-parent,
+  .lumenara-parent {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+  }
+  .galaxies-parent {
+    top: 59.77px;
+    left: 1280.51px;
+    width: 582.74px;
+    align-items: flex-start;
+    justify-content: space-between;
+    text-align: left;
+    font-size: 20.02px;
+  }
+  .lumenara-parent {
+    position: relative;
+    top: 55%;
+    right: 0;
+    transform: translateX(79%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+  .etheron {
+    position: relative;
+    background: linear-gradient(
+      120.56deg,
+      #1d2948,
+      #141d33 24.82%,
+      #0f1628 38.08%,
+      #050a16
+    );
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 100%;
+    height: 1422.22px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 33.96px;
+    color: white;
+    font-family: 'Satoshi';
+  }
+  
+
+
+
+  /* Etheron.css */
+
+/* ... other styles ... */
+
+.arrow {
+  position: absolute;
+  top: 65%;
+  transform: translateY(-50%);
+  width: 10px;
+  height: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 24px;
+  color: white;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.left-arrow {
+  left: 20px;
+}
+
+.right-arrow {
+  right: 20px;
+}
+
+.arrow:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* ... rest of the styles ... */
+
+
+
+
+
+/* Etheron.css */
+
+
+
+@keyframes rotatePlanet {
+  0% {
+    transform: rotate(20deg);
+  }
+  25% {
+    transform: rotate(60deg);
+  }
+  50% {
+    transform: rotate(55deg);
+  }
+  100% {
+    transform: rotate(55deg);
+  }
+}
+
+
+@keyframes rotateSpace {
+  0% {
+    transform: rotate(20deg);
+  }
+  25% {
+    transform: rotate(60deg);
+  }
+  50% {
+    transform: rotate(55deg);
+  }
+  100% {
+    transform: rotate(55deg);
+  }
+}
+

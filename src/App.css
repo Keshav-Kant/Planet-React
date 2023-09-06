@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Satoshi:wght@400;500&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+*{
+  font-family: 'Satoshi';
+}
+body::-webkit-scrollbar{
+  display: none;
+}
